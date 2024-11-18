@@ -1,0 +1,7 @@
+type: fonts
+fonts:
+  nerd-fonts:
+    - FiraCode # this is my default one
+    - JetBrainsMono
+  google-fonts:
+    - Open Sans
