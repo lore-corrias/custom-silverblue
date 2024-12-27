@@ -113,3 +113,6 @@ install:
   # vpn
   - tailscale
   - wireshark
+
+  # development
+  - distrobox
