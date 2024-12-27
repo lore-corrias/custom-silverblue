@@ -2,3 +2,4 @@ type: script
 scripts:
   - rpmfusion.sh
   - autoupdate.sh
+  - flathub.sh
