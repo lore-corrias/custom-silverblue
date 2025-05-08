@@ -15,14 +15,15 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  # List of custom scripts
+  - from-file: default-scripts.yml  
   # List of default rpm-ostree packages
   - from-file: default-packages.yml
   # List of default flatpak packages
   - from-file: default-flatpaks.yml
   # List of fonts to be installed
   - from-file: default-fonts.yml
-  # List of custom scripts
-  - from-file: default-scripts.yml
+
     
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

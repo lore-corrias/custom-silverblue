@@ -11,6 +11,7 @@ system:
     - com.discordapp.Discord
     - com.github.tchx84.Flatseal
     - md.obsidian.Obsidian
+    - app.devsuite.Ptyxis
     - org.telegram.desktop
     # - org.gnome.Loupe
     # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
