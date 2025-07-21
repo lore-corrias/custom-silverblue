@@ -5,7 +5,7 @@ description: A test for a custom silverblue image with Hyprland built in
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 41 # latest is also supported if you want new updates ASAP
+image-version: 42 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -15,6 +15,8 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  # List of copr repositories to be used
+  - from-file: default-repositories.yml
   # List of custom scripts
   - from-file: default-scripts.yml  
   # List of default rpm-ostree packages

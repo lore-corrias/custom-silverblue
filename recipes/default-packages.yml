@@ -50,7 +50,6 @@ install:
   - dunst
 
   # cli tools
-  - eza
   - fd-find
   - ripgrep
   - zoxide

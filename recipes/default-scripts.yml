@@ -3,3 +3,5 @@ scripts:
   - rpmfusion.sh
   - autoupdate.sh
   - flathub.sh
+  - eza.sh
+  - grimblast.sh
